@@ -92,7 +92,7 @@ selected_dataset = st.selectbox(
 if st.button("Run ETL Pipeline") and dataset_names and selected_dataset != "Tidak ada file yang diunggah":
 
     # ------------------------------------
-    # 1. BRONZE LAYER (Data Mentah Apa Adanya)
+    # 1. BRONZE LAYER (Data Mentah )
     # ------------------------------------
     st.header("🟫 Bronze Layer")
     
